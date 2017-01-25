@@ -1,0 +1,159 @@
+body {
+    background-image: url("../images/background.jpg");
+    font: 20px "Arial", "Helvetica", sans-serif;
+}
+
+#wrapper {
+    width: 800px;
+    height: 540px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.2);
+    padding: 30px 40px;
+    border-radius: 40px;
+    color: #2166A2;
+}
+input {
+    font-size: 22px;
+}
+input[type="reset"],
+input[type="submit"] {
+    font-size: 24px;
+}
+select {
+    font-size: 14px;
+}
+input,
+select {
+    border: 2px solid #2C6A8F;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.5);
+    color: #32628A;
+}
+fieldset {
+    border-color: #2C6A8F;
+    border-radius: 20px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+header div  {
+    padding: 10px;
+    height: 50px;
+    width: 160px;
+    position: relative;
+}
+header div span {
+    position: absolute;
+    top: 23px;
+    left: 60px;
+}
+header div:first-child {
+    background-color: #73A9CD;
+    border-radius: 10px;
+}
+header div:hover {
+    cursor: pointer;
+    background-color: #73A9CD;
+    border-radius: 10px;
+}
+.left {
+    float: left;
+    width: 350px;
+}
+.right {
+    float: right;
+    width: 350px;
+}
+.left-set,
+.right-set {
+    text-align: center;
+    height: 300px;
+
+}
+
+.left-set input {
+    margin-top: 30px;
+    padding: 6px 0 6px 35px;
+    text-align: center;
+}
+.left-set div {
+    /*height: 70px;*/
+    margin-top: 0;
+    position: relative;
+}
+.left-set img {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+ }
+
+.left:after,
+.right:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    zoom: 1;
+}
+p {
+    margin-bottom: 5px;
+}
+#radio-btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="radio"],
+label[for="radio1"],
+label[for="radio2"] {
+    cursor: pointer;
+}
+#label-field {
+    width: 100%;
+}
+#destination {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 0 10px 5px;
+    margin: 10px 0;
+}
+#date {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+.buttons {
+    float: right;
+    margin-top: 10px;
+}
+.buttons input[type="reset"],
+.buttons input[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: none;
+    font-weight: bold;
+}
+.buttons input[type="reset"] {
+    border: 2px solid #9F2E34;
+    color: #DF0907;
+}
+.buttons input[type="submit"] {
+    border: 2px solid #72d572;
+    color: #07F907;
+}
+.buttons input[type="reset"]:hover {
+    background-color: #B40001;
+    color: #fff;
+    cursor: pointer;
+}
+.buttons input[type="submit"]:hover {
+    background-color: #00B300;
+    color: #fff;
+    cursor: pointer;
+}

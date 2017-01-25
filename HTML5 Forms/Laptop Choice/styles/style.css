@@ -1,0 +1,98 @@
+/***** GENERAL STYLE *****/
+#wrapper {
+    font-family: "Tahoma", sans-serif;
+    width: 1010px;
+    height: 600px;
+    margin: 10px auto;
+}
+header, aside > form {
+    display: inline-block;
+}
+/***** HEADER STYLE *****/
+header > h1 {
+    color: #2B425A;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 400px;
+}
+/***** ASIDE STYLE *****/
+aside > form {
+    width: 230px;
+    height: 600px;
+    background-color: #F7FCFF;
+    border: 1px solid #DBEFFA;
+    float: right;
+    margin-top: -21px;
+}
+aside > form:after {
+    clear: both;
+}
+form > div {
+    padding-top: 20px;
+    padding-left: 5px;
+}
+form > div > p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+form > div > div {
+    padding-bottom: 10px;
+}
+.right {
+    float: right;
+}
+.right {
+    clear: both;
+}
+input[type="range"] {
+    width: 95%;
+}
+/***** ARTICLE STYLE *****/
+article {
+    width: 230px;
+    height: 265px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #DBEFFA;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+article > a {
+    text-decoration: none;
+}
+article > a > span {
+    display: block;
+}
+article > a > span:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2C4255;
+    padding-bottom: 5px;
+}
+article > a > span:nth-child(2),
+article > a > span:nth-child(3) {
+    color: #394d5d;
+    padding-bottom: 5px;
+}
+img {
+    width: 210px;
+    float: right;
+    padding-right: 10px;
+    margin-top: 21px;
+}
+.last {
+    width: 130px;
+    height: 25px;
+    float: right;
+    background-color: #2C425A;
+    border-top-left-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    text-align: center;
+}

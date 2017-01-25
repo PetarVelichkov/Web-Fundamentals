@@ -1,0 +1,126 @@
+body {
+    background-color: #018442;
+    font-family: Tahoma;
+    padding-top: 20px;
+}
+table {
+    border: 2px solid black;
+    border-spacing: 0;
+    margin: auto;
+    width: 1000px;
+    height: 350px;
+    border-radius: 25px;
+}
+thead {
+    background-color: #ffd110;
+    font-weight: bold;
+    font-size: 28px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+#top-left {
+    border-top-left-radius: 22px;
+}
+#top-right {
+    border-top-right-radius: 22px;
+}
+#bottom-left {
+    border-bottom-left-radius: 22px;
+}
+#bottom-right {
+    border-bottom-right-radius: 22px;
+}
+.white {
+    background-color: #f9f9f9;
+}
+.grey {
+    background-color: #c5c5c5;
+}
+.home, .home2 {
+    text-align: right;
+    width: 125px;
+}
+td.home {
+    padding-right: 35px;
+}
+.result {
+    text-align: center;
+}
+.group {
+    text-align: center;
+}
+.select {
+    text-align: center;
+}
+select {
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    font-size: 18px;
+}
+.red {
+    color: red;
+    background-color: #dddddd;
+}
+.green {
+    color: green;
+}
+#Brasil {
+    background: url("../images/brasil-flag.png") no-repeat;
+    background-position: 95% 54%;
+}
+#Spain {
+    background: url("../images/spain-flag.png") no-repeat;
+    background-position: 95% 54%;
+}
+#Italy {
+    background: url("../images/italy-flag.png") no-repeat;
+    background-position: 95% 54%;
+}
+#Argentina {
+    background: url("../images/argentina-flag.png") no-repeat;
+    background-position: 95% 54%;
+}
+#bottom-left {
+    background: url("../images/germany-flag.png") no-repeat;
+    background-position: 95% 54%;
+}
+#Mexico {
+    background: url("../images/mexico-flag.png") no-repeat;
+    padding-left: 35px;
+    background-position: 5% 54%;
+}
+#Netherlands {
+    background: url("../images/netherlands-flag.png") no-repeat;
+    padding-left: 35px;
+    background-position: 5% 54%;
+}
+#England {
+    background: url("../images/england-flag.png") no-repeat;
+    padding-left: 35px;
+    background-position: 5% 54%;
+}
+#Bosnia {
+    background: url("../images/bah-flag.png") no-repeat;
+    padding-left: 35px;
+    background-position: 5% 54%;
+}
+#Portugal {
+    background: url("../images/portugal-flag.png") no-repeat;
+    padding-left: 35px;
+    background-position: 5% 54%;
+}
+button {
+    width: 33px;
+    height: 33px;
+    border: 0;
+    background: url("../images/buttons.png") no-repeat;
+}
+.red-button {
+    background-position: 0% 100%;
+}
+.green-button {
+    background-position: 100% 0%;
+}

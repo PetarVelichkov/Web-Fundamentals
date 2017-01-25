@@ -1,0 +1,204 @@
+/***** GENERAL STYLE *****/
+body {
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 16px;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #0f9cff;
+}
+
+header,
+main,
+footer {
+    clear: both;
+}
+/***** HEADER STYLE *****/
+header > h1 {
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+nav > ul > li a {
+    color: #999;
+    text-transform: uppercase;
+}
+
+nav,
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li {
+    margin: 0 20px;
+}
+
+nav > ul > li:first-child {
+    padding-left: 0px;
+}
+
+.nav-bar {
+    margin-top: 35px;
+}
+
+input {
+    float: right;
+}
+
+hr {
+    color: #ccc;
+}
+/***** MAIN STYLE *****/
+main {
+    margin-top: 80px;
+}
+/***** ASIDE STYLE *****/
+aside {
+    width: 200px;
+    float: left;
+}
+.left-aside > ul > li {
+    width: 180px;
+    margin: 10px;
+}
+
+.left-aside {
+    border-top: 1px solid #ccc;
+}
+/***** ARTICLE STYLE *****/
+article {
+    margin-bottom: 20px;
+}
+
+section {
+    width: 520px;
+    margin: 0 20px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.header-info {
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.header-info a{
+    color: #666;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #999;
+    word-spacing: 3px;
+}
+
+.header-info a:hover {
+    border-bottom: 1px solid;
+}
+
+article p {
+    color: #494c4c;
+    margin-bottom: 15px;
+}
+
+#continue {
+    margin-bottom: 25px;
+}
+
+#prev {
+    margin-top: 50px;
+}
+
+/***** RIGHT ASIDE STYLE *****/
+.haed-aside {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #ccc;
+    text-transform: uppercase;
+}
+select {
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+/***** FOOTER STYLE *****/
+
+footer {
+    margin-top: 20px;
+}
+
+.footer-box {
+    font-style: italic;
+    color: #777;
+    background-color:rgba(192,192,192,0.1);
+    padding-left: 60px;
+    height: 40px;
+    padding-top: 25px;
+}
+
+footer > section  {
+    width: 960px;
+    margin-left: 0;
+    background-color: black;
+    color: white;
+}
+
+footer > section > div {
+    padding-top: 20px;
+}
+
+footer a {
+    color: white;
+}
+footer header {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+footer li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.div1 {
+    width: 139px;
+    float: left;
+    margin: 0 20px;
+}
+
+.div2 {
+    width: 98px;
+    float: left;
+    margin: 0 20px;
+}
+
+.div3 {
+    width: 158px;
+    float: left;
+    margin: 0 20px;
+}
+
+.div4 {
+    width: 162px;
+    float: left;
+    margin: 0 20px;
+}
+
+.div5 {
+    width: 177px;
+    float: left;
+    margin: 0 20px;
+    color: #494c4c;
+}
+
+

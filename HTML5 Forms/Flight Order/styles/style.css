@@ -1,0 +1,77 @@
+#wrapper {
+    font-family: Tahoma, sans-serif;
+    background-color: #FFC0CB;
+    width: 540px;
+    height: 360px;
+    margin: 20px auto;
+}
+.first-form, .second-form {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+/***** FIRST FORM STYLE *****/
+header > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.7em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cities, .element, .sec-cities {
+    width: 250px;
+    height: 25px;
+}
+
+.first-div {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.cities {
+    margin-bottom: 30px;
+}
+
+.element {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 77px;
+    height: 20px;
+}
+
+.first-div span {
+    word-spacing: 50px;
+}
+
+/***** SECOND FORM STYLE *****/
+
+.sec-cities {
+    margin-bottom: 5px;
+}
+#check, label {
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+label {
+    font-size: 0.9em;
+}
+.time {
+    width: 120px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#class {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#search {
+    width: 250px;
+    height: 30px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,62 @@
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    font: 15px/24px Tahoma, sans-serif; ;
+}
+header > h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+}
+main {
+    background-color: #DDDDDD;
+
+}
+main > div {
+    width: 430px;
+    display: inline-block;
+    padding: 8px;
+}
+.image1,
+.image2,
+.image3,
+.image4 {
+    background: url("../images/office-collection.png") no-repeat;
+    width: 128px;
+    height: 123px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.image1 {
+    background-position: 1%;
+}
+.image2 {
+    background-position: 32%;
+}
+.image3 {
+    background-position: 66%;
+}
+.image4 {
+    background-position: 98%;
+}
+main > div > h2 {
+    font-size: 16px;
+    text-align: center;
+    color: #1D0D0F;
+    text-transform: uppercase;
+}
+main > div > p {
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main > div:hover {
+    background-color: #02808F;
+    cursor: pointer;
+}
+main > div:hover div {
+    background-color: #E4FDE0;
+}

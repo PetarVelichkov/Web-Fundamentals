@@ -1,0 +1,83 @@
+@font-face {
+    src: url('../fonts/Vollkorn-Regular.ttf');
+    font-family: Vollkorn;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    font: 16px Tahoma, sans-serif ;
+}
+header > h1,
+header > h3,
+.price {
+    font-family: Vollkorn, serif;
+}
+header > h1 {
+
+    font-size: 40px;
+    color: #7A8C9B;
+    text-align: center;
+    font-weight: normal;
+}
+.pricing {
+    float: left;
+    width: 320px;
+    height: 550px;
+    background-color: #F6F7F9;
+    margin: 0 10px;
+    position: relative;
+}
+.pricing:last-of-type {
+    margin-right: 0;
+}
+.pricing:first-of-type {
+    margin-left: 0;
+}
+header > h3 {
+    background-color: #EBEFF2;
+    color: #757884;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+div > p {
+    color: #888BA2;
+    border-bottom: 2px solid #F2F3F5;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.price {
+    color: #7F8993;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+button {
+    background-color: #CAD5D9;
+    height: 50px;
+    width: 250px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    margin: 0 35px 10px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.pricing:hover > header > h3,
+.pricing:hover > button{
+    background-color: #65D3E2;
+    cursor: pointer;
+}
+.pricing:hover > .pricing-content > .price {
+    color: #63D5E0;
+}
+.pricing:hover > header > h3 {
+    color: white;
+}
+

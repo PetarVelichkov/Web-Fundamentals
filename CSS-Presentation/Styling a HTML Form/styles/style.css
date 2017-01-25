@@ -1,0 +1,91 @@
+body {
+    background: url("../images/formBackground.jpg") no-repeat;
+    font-family: Arial;
+    margin: 20px 750px;
+    font-size: 20px;
+}
+.header {
+    color: white;
+}
+input[type=text] {
+    margin-left: auto;
+    border-radius: 3px;
+    border-style: none;
+    padding: 5px;
+    width: 190px;
+    height: 20px;
+}
+div {
+    background-color: rgba(192,192,192,0.4);
+    margin: 3px;
+    width: 400px;
+    height: auto;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 2px solid #c5c5c5 ;
+}
+textarea {
+    margin-left: 80px;
+    border-radius: 5px;
+    width: 195px;
+    height: 90px;
+}
+#address {
+    vertical-align: top;
+}
+#name {
+    margin-left: 101px;
+}
+#email {
+    margin-left: 104px;
+}
+#number {
+    margin-left: 96px;
+}
+#code {
+     margin-left: 65px;
+}
+#country {
+    margin-left: 84px;
+}
+#card-number {
+    margin-left: 37px;
+}
+#security {
+    margin-left: 32px;
+}
+#card-name {
+    margin-left: 28px;
+}
+.btn {
+    width:45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#button {
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 8px;
+    width: 100px;
+    background-color: #00002d;
+    color: white;
+}
+#cards {
+    padding-bottom: 10px;
+}
+#visacard {
+    background: url("../images/visa.jpg") no-repeat;
+    padding-left: 30px;
+}
+#amexcard {
+    background: url("../images/amex.jpg") no-repeat;
+    padding-left: 30px;
+}
+#mastercard {
+    background: url("../images/master.jpg") no-repeat;
+    padding-left: 30px;
+}

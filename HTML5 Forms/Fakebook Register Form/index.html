@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>fakebook</h1>
+            <h3>Registration</h3>
+            <p>It is safe and it will always be!</p>
+        </header>
+        <main>
+            <form action="#" method="post" class="first-form">
+                <fieldset>
+                    <legend>None-Important Information</legend>
+                    <input type="text" name="firstname" placeholder="First Name" class="input-data">
+                    <input type="text" name="lastname" placeholder="Last Name" class="input-data">
+                    <input type="email" name="email" placeholder="Your Email" class="input-data">
+                    <input type="tel" name="phone" placeholder="Phone Number" class="input-data">
+                    <input type="password" name="password" placeholder="Your Password" class="input-data">
+                    <input type="url" name="website" placeholder="Website" class="input-data">
+                    <p id="par">Birthday</p>
+                    <input type="datetime-local">
+                    <br>
+                    <div class="radio-btn">
+                        <input type="radio" name="gender" id="radio1">
+                        <label for="radio1">Female</label>
+                        <input type="radio" name="gender" id="radio2">
+                        <label for="radio2">Male</label>
+                        <input type="radio" name="gender" id="radio3">
+                        <label for="radio3">Other</label>
+                    </div>
+                </fieldset>
+                <input type="reset" name="reset" id="reset" value="Clear Form">
+            </form>
+
+            <form action="#" method="post" class="second-form">
+                <fieldset>
+                    <legend>Important Information *required</legend>
+                    <select name="country" id="country" required="true" class="first-element">
+                        <option value="">Country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Spain">Spain</option>
+                        <option value="England">England</option>
+                        <option value="Germany">Germany</option>
+                    </select>
+                    <input type="text" name="Village" required="true" placeholder="Village" class="first-element">
+                    <input type="text" name="District" required="true" placeholder="District" class="first-element">
+                    <input type="text" name="Street" required="true" placeholder="Stret" class="second-element-1">
+                    <input type="text" name="Nr" required="true" placeholder="Nr" class="second-element">
+                    <input type="text" name="Floor" required="true" placeholder="Floor" class="second-element">
+                    <input type="text" name="Ap Nr" required="true" placeholder="Ap Nr" class="second-element">
+                    <p>Door Color</p>
+                    <input type="color" name="door-color" required="true" class="first-element">
+                    <input type="text" name="Water Meter Nr" required="true" placeholder="Water Meter Nr" class="first-element">
+                    <select name="panties" id="panties" class="first-element">
+                        <option value="">Aunt Panties'Size</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <p>More Personal Information</p>
+                    <textarea name="information" placeholder="Give Us More Information!!!"></textarea>
+                </fieldset>
+                <input type="submit" name="register" id="register" value="Register">
+            </form>
+        </main>
+    </div>
+</body>
+</html>

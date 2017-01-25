@@ -1,0 +1,93 @@
+@media only screen and (min-width: 731px) and (max-width: 1200px){
+    #wrapper {
+        width: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    header {
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    header nav > ul li {
+        width: 20%;
+    }
+    main {
+        width: auto;
+    }
+    main section,
+    main aside {
+        margin-right: 30px;
+        width: auto;
+    }
+    main aside {
+        margin-top: 0;
+    }
+    main aside article {
+        margin-right: 0;
+    }
+    footer {
+        width: auto;
+        text-align: center;
+    }
+    footer p {
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 730px) {
+    #wrapper {
+        width: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    header {
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    header nav > ul li {
+        display: table-column;
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        margin: 200px auto;
+        margin-bottom: 30px;
+    }
+    main section,
+    main aside {
+        margin-right: 30px;
+        width: auto;
+    }
+    main aside {
+        margin-top: 0;
+    }
+    main section > div {
+        /*display: table-row-group;*/
+        height: auto;
+        background-color: #BACD8B;
+    }
+    main section > div article {
+        background-color: #FFFFFF;
+    }
+    main section > div article h3,
+    main > aside > article > h1,
+    main > aside > article > h2 {
+        text-align: center;
+    }
+    main section > div > div {
+        display: block;
+        float: none;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+
+    main > aside > article {
+        margin-right: 0;
+    }
+    footer p {
+        margin-left: 0;
+        text-align: center;
+    }
+}

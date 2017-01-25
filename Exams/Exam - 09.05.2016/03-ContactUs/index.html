@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem 3 – Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <aside>
+            <header>
+                <h1>Contact us</h1>
+            </header>
+            <p>If you would like to speak to a member of our team about our products, fill in the form below.</p>
+        </aside>
+        <main>
+            <form action="#">
+                <span>Email address</span>
+                <span class="first">Required</span>
+                <input type="email" class="email-address">
+                <p class="email-p">Please enter a valid email address</p>
+
+                <span>My telephone number is</span>
+                <span class="second">Optional</span>
+                <div class="tel-number">
+                    <input type="text" class="number1" value="+">
+                    <input type="text" class="number2">
+                </div>
+
+                <span>My message</span>
+                <span class="third">Optional</span>
+                <textarea class="message"></textarea>
+
+                <p>I would like to be contacted by</p>
+                <div class="radio1">
+                    <input type="radio" name="contact">
+                    <span>Email</span>
+                </div>
+                <div class="radio2">
+                    <input type="radio" name="contact">
+                    <span>Telephone</span>
+                </div>
+
+                <div class="check-box">
+                    <input type="checkbox">
+                    <p>Please, tick the box if you would like to receive regular email and communications about our products,
+                    events and services. By ticking this box, you confirm you have read and agree to our
+                        <a href="#">terms and conditions</a>.</p>
+                </div>
+                <input type="submit" value="Submit">
+                <p>We aim to reply within 2 days</p>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

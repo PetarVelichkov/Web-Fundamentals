@@ -1,0 +1,119 @@
+#wrapper {
+    width: 780px;
+    height: 380px;
+    margin: 0px auto;
+    background-color: #EEEEEE;
+}
+/***** HEADER STYLE *****/
+header {
+    margin-left: 20px;
+}
+
+header > h1 {
+    font-size: 1.8em;
+    color: #1F4162;
+}
+
+header > p {
+    color: #787878;
+}
+
+/***** FIRST FORM STYLE *****/
+form {
+    float: left;
+}
+form:after {
+    clear: both;
+}
+
+.first-form {
+    width: 369px;
+    padding: 0;
+    border: none;
+}
+
+form > header {
+    text-transform: uppercase;
+    padding-left: 25px;
+    color: #5E5E5E;
+    font-weight: bold;
+    /*padding-top: 20px;*/
+}
+
+header > span {
+    color: #183B5E;
+}
+
+input {
+    display: block;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 330px;
+    height: 30px;
+    border: 2px solid #E3E3E3;
+    padding-left: 10px;
+}
+
+.register {
+    width: 175px;
+    margin-left: 193px;
+    border: 2px solid #1F4162;
+    color: #1F4162;
+    font-weight: bold;
+}
+
+/***** SECOND FORM STYLE *****/
+
+.second-form {
+    background-color: #234465;
+    margin-left: 10px;
+    width: 369px;
+    height: 241px;
+}
+
+.second-form input {
+    margin-left: 13px;
+}
+
+.white{
+    color: white;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+label {
+    font-size: 0.8em;
+    color: white;
+    vertical-align: top;
+    position: relative;
+    top: 18px;
+    cursor: pointer;
+}
+
+.login {
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #234465;
+    border: 2px solid #FFA400;
+    display: inline-block;
+    float: right;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+.login:after {
+    clear: both;
+}
+
+a {
+    padding-left: 241px;
+    color: white;
+}

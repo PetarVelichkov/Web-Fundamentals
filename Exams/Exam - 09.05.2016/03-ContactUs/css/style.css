@@ -1,0 +1,113 @@
+body {
+    background-color: #a8dadc;
+    font: 15px/20px Tahoma, Helvetica, sans-serif;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+#wrapper > aside {
+    float: left;
+    width: 300px;
+    height: 656px;
+    background-color: #1d3557;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#wrapper > main {
+    float: right;
+    width: 660px;
+    background-color: #f1faee;
+    box-sizing: border-box;
+    padding:30px;
+}
+main:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    zoom: 1;
+}
+aside > header > h1 {
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 60px;
+    color: #a8dadc;
+}
+aside > p {
+    color: #f1faee;
+}
+input {
+    height: 30px;
+}
+form > input.email-address{
+    display: block;
+    width: 100%;
+    border: 1px solid #e63946;
+}
+form > span.first {
+    float: right;
+    color: #e63946;
+    margin-bottom: 5px;
+}
+form > p.email-p {
+    margin-top: 5px;
+    color: #e63946;
+}
+form > span.second {
+    float: right;
+    color: #B8B8BB;
+}
+form > div.tel-number {
+    margin: 5px 0 30px 0;
+}
+form > div.tel-number > .number1{
+    width: 21%;
+    padding-left: 10px;
+    border: 1px solid #1d3557;
+}
+form > div.tel-number > .number2 {
+    float: right;
+    width: 70%;
+    border: 1px solid #1d3557;
+}
+form > span.third {
+    float: right;
+    color: #B8B8BB;
+}
+form > textarea {
+    width: 99%;
+    height: 80px;
+    margin-top: 5px;
+    border: 1px solid #1d3557;
+}
+form > div.radio1,
+form > div.radio2{
+    position: relative;
+}
+form > div.radio1 > span,
+form > div.radio2 > span{
+     position: absolute;
+     top: 7px;
+     left: 25px;
+}
+form > div.check-box {
+    height: 80px;
+}
+form > div.check-box p {
+    float: right;
+    width: 95%;
+    margin-top: 7px;
+}
+form > div.check-box > p > a {
+    color: #e63946 ;
+}
+form > input[type="submit"] {
+    width: 100%;
+    background-color: #e63946 ;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f1faee;
+    height: 40px;
+}

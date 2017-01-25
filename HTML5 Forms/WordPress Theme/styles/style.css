@@ -1,0 +1,23 @@
+#wrapper {
+    font-family: "Tahoma", sans-serif;
+    width: 500px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+form > div {
+    margin: 15px 0px;
+}
+input[type="image"] {
+    vertical-align: middle;
+}
+
+/*#submit {*/
+    /*background: url("../images/wp-button.png") no-repeat;*/
+    /*width: 29px;*/
+    /*height: 29px;*/
+    /*border-radius: 40px;*/
+    /*border: none;*/
+    /*position: relative;*/
+    /*top: 11px;*/
+/*}*/

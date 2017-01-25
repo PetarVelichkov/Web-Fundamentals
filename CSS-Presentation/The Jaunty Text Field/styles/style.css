@@ -1,0 +1,124 @@
+#box {
+    font-family: "Arial";
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    border-top: 9px dotted yellow;
+    border-right: 9px solid green;
+    border-bottom: 9px double blue;
+    border-left: 9px dashed red;
+    box-shadow: 13px 13px 3px #6d6d6d;
+}
+header p {
+    font-size: 2.8em;
+    text-shadow: 10px 8px 15px;
+}
+#inner-box {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+#blue {
+    border: 3px solid blue;
+    border-radius: 70px;
+}
+#green {
+    border: 3px solid green;
+    border-radius: 65px;
+}
+#yellow {
+    border: 3px solid yellow;
+    border-radius: 60px;
+}
+#red {
+    border: 3px solid red;
+    border-radius: 55px;
+    padding-bottom: 20px;
+}
+#red p {
+    text-shadow:  6px 11px 11px grey;;
+}
+.btn {
+    border: 3px outset #eaa12a;
+    background-color: #eaa12a;
+    font-size: 14px;
+    padding: 1px 10px 1px 10px;
+    font-weight: bold;
+}
+.border:before {
+    content: " ";
+    position: absolute;
+    border: 4px dashed white;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#biggest-bubble {
+    position: relative;
+    width: 140px;
+    height: 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: rgba(104,104,104,0.7);
+    top: -340px;
+    left: 639px;
+    border: 4px dashed;
+    border-color: rgba(104,104,104,0.1);
+    padding-top: 10px;
+}
+
+#biggest-bubble:before {
+    content: " ";
+    position: absolute;
+    border: 4px dashed white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#text{
+    position: absolute;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    top: 123px;
+    left: 953px;
+}
+#small-bubble {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background: rgba(104,104,104,0.7);
+    border-radius: 50%;
+    top: -105px;
+    left: 495px;
+    border: 4px dashed;
+    border-color: rgba(104,104,104,0.1);
+}
+
+#middle-bubble {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: rgba(104,104,104,0.7);
+    border-radius: 50%;
+    top: -180px;
+    left: 567px;
+    border: 4px dashed;
+    border-color: rgba(104,104,104,0.1);
+}

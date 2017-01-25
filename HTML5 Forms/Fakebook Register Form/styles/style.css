@@ -1,0 +1,142 @@
+#wrapper {
+    font-family: "Tahoma", sans-serif;
+    width: 1000px;
+    height: 600px;
+    background-color: #3B5997;
+    margin: 10px auto;
+    color: white;
+}
+input, select,textarea {
+    border-radius: 3px;
+    border: none;
+}
+.first-form, .second-form {
+    display: inline-block;
+}
+.first-form > fieldset > legend,
+.second-form > fieldset > legend {
+    margin-bottom: 5px;
+}
+/***** HEADER STYLE *****/
+header {
+    text-align: center;
+}
+
+header > h1 {
+    font-weight: bold;
+    font-size: 9em;
+    margin-bottom: 30px;
+}
+header > h3 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+header > p {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/***** FIRST FORM STYLE *****/
+
+.first-form {
+    width: 400px;
+}
+.first-form > fieldset {
+    border: 1px solid white;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+    height: 250px;
+}
+
+.input-data {
+    margin: 5px 3px;
+    width: 170px;
+    height: 25px;
+    padding-left: 2px;
+}
+#par {
+    text-align: left;
+    padding-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="datetime-local"] {
+    width: 240px;
+    height: 25px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 16px;
+}
+.radio-btn {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+.radio-btn > input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.radio-btn > label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+#reset {
+    width: 390px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    color: #3B5997;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+    /***** SECOND FORM STYLE *****/
+.first-element,
+.second-element-1 {
+    width: 165px;
+    height: 25px;
+}
+
+.second-form {
+    width: 550px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.second-form fieldset {
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 8px;
+    height: 250px;
+}
+.first-element {
+    margin: 5px 3px;
+    padding-left: 2px;
+}
+.second-element-1 {
+    margin-left: -15px;
+    padding-left: 2px;
+}
+.second-element {
+    width: 100px;
+    height: 25px;
+    margin: 5px 3px;
+    padding-left: 2px;
+}
+.second-form p {
+    text-align: left;
+    margin: 5px 0px 8px 14px;
+    font-weight: bold;
+}
+textarea {
+    width: 515px;
+    height: 45px;
+}
+#register {
+    width: 550px;
+    margin-top: 20px;
+    height: 40px;
+    color: #3B5997;
+    font-size: 1.3em;
+    font-weight: bold;
+}

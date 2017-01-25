@@ -1,0 +1,132 @@
+body {
+    background-color: #EBEBEB;
+}
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    font: 13px Tahoma, Helvetica, sans-serif
+}
+input,
+select {
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #CACACA;
+}
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+header > h1 {
+    font-size: 28px;
+    color: #369EEA;
+    background-color: #F1F1F1;
+    border-bottom: 1px dashed #CCCCCC;
+    margin: 0 auto;
+    padding: 30px 0 30px 20px;
+    margin-bottom: 30px;
+}
+header > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #372225;
+    margin-bottom: 25px;
+}
+article {
+    width: 550px;
+    float: left;
+    margin-bottom: 20px;
+    color: #403935;
+}
+img {
+    width: 15px;
+}
+.search{
+    width: 220px;
+    float: right;
+    height: 20px;
+    position: relative;
+    margin-top: -35px;
+}
+.search > label {
+    font-weight: bold;
+}
+.search > input {
+    width: 200px;
+}
+.search > button {
+    border: 0;
+    background: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+}
+section {
+    border-bottom: 1px dashed #CCCCCC;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    zoom: 1;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+#details > input{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.right {
+    width: 550px;
+    float: right;
+}
+select,
+.number-room > input,
+.date > input {
+    padding-left: 10px;
+}
+.form-control {
+    display: inline-block;
+}
+.select-room {
+    width: 320px;
+    margin-right: 6px;
+}
+.number-room {
+    width: 220px;
+    margin-bottom: 25px;
+}
+select {
+    width: 300px;
+}
+.number-room > input {
+    width: 200px;
+}
+.date {
+    width: 270px;
+}
+.date > input {
+    width: 250px;
+}
+#left-date {
+    margin-right: 6px;
+    margin-bottom: 30px;
+}
+#submit-button {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    background-color: #32A2E4;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+}

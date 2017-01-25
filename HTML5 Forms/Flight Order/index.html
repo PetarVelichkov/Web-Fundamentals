@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header><h1>flight order</h1></header>
+        <main>
+            <form action="#" method="post" class="first-form">
+                <div class="first-div">From</div>
+                <select name="cities" class="cities" required="true">
+                    <option value="enter a city">enter a city</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Varna">Varna</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Stara Zagora">Stara Zagora</option>
+                </select>
+
+                <div class="first-div">Departure Date</div>
+                <input type="date" name="dep-date" class="element" required="true">
+
+                <div class="first-div">Return Date</div>
+                <input type="date" name="return-date" class="element" required="true">
+
+                <div class="first-div"><span>12+ </span><span>2-12 </span><span>0-2</span></div>
+                <input type="number" min="0" class="element">
+                <input type="number" min="0" class="element">
+                <input type="number" min="0" class="element">
+            </form>
+
+            <form action="#" method="post" class="second-form">
+                <div class="first-div">To</div>
+                <select name="cities" class="sec-cities" required="true">
+                    <option value="enter a city">enter a city</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Varna">Varna</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Stara Zagora">Stara Zagora</option>
+                </select>
+                <div class="first-div">
+                <input type="checkbox" name="checkbox" id="check">
+                <label for="check">Prefer directs</label>
+                </div>
+
+                <div class="first-div">Time Interval</div>
+                <input type="time" name="time" class="time">
+                <input type="time" name="time" class="time">
+
+                <div class="first-div">Time Interval</div>
+                <input type="time" name="time" class="time">
+                <input type="time" name="time" class="time">
+
+                <div class="first-div">Choose class</div>
+                <select name="class" id="class">
+                    <option value="economy">Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first-class">First Class</option>
+                </select>
+                <br>
+                <input type="submit" name="search" value="Search" id="search">
+            </form>
+        </main>
+    </div>
+</body>
+</html>

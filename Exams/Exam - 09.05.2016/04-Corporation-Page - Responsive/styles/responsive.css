@@ -1,0 +1,117 @@
+@media only screen and (min-width: 641px) and (max-width: 960px){
+    div.content-wrapper {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .accent {
+        height: auto;
+    }
+    .accent .banner-text  {
+        width: 50%;
+    }
+    .accents {
+        width: 100%;
+    }
+    .accents li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 0;
+    }
+    .accents .accent-icon {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    div.content-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .page-head {
+        position: static;
+    }
+    .page-head .logo a img {
+        display: block;
+        position: relative;
+        top: 11px;
+        padding-left: 15px;
+    }
+    .page-head .container,
+    .page-head .top-nav,
+    .page-head .top-nav .nav-menu-wrapper .nav-menu li, .page-head .top-nav .nav-menu-inner li {
+        display: block;
+    }
+    .page-head .top-nav .nav-menu-wrapper .nav-menu li, .page-head .top-nav .nav-menu-inner li {
+        margin-left: 0;
+    }
+    .page-head .top-nav .nav-menu-wrapper {
+        background-color: #005CB1;
+    }
+    .page-head .top-nav {
+        text-align: left;
+        padding: 0;
+    }
+    .nav-menu > li {
+        height: 60px;
+    }
+    .nav-menu > li > a {
+        color: #fff;
+        padding-left: 20px;
+        position: relative;
+        top: 17px;
+    }
+    .current {
+        border-bottom: 1px solid #3B82C3;
+    }
+
+    .accent {
+        margin-top: 110px;
+        height: auto;
+    }
+    .accent .banner-text {
+        position: relative;
+        top: 320px;
+        width: 100%;
+    }
+    .accents {
+        margin-top: 305px;
+    }
+    .btn {
+        width: 100%;
+    }
+
+    .accents {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .accents li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: 0;
+    }
+    .accents .accent-icon {
+        margin: 0 auto;
+    }
+    .info-panel {
+        padding: 40px 60px 40px 70px;
+    }
+    .page-footer .foot-nav ul li {
+        display: block;
+    }
+    .page-footer .foot-nav ul li a {
+        padding: 20px 0;
+    }
+    .foot-nav .current {
+        border: 0;
+    }
+    .page-footer {
+        height: auto;
+        text-align: center;
+        position: relative;
+    }
+}

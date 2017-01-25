@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Yanone Kaffeesatz Regular';
+    src: url(../fonts/yanonekaffeesatz-regular-webfont.ttf);
+}
+body {
+    font-family: "Yanone Kaffeesatz Regular", Arial, sans-serif;
+    background: url("../img/form-background.png") no-repeat;
+    background-size: cover;
+}
+#wrapper {
+    width: 530px;
+    margin: 0 auto;
+}
+header > h1 {
+    color: #7C7873;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.form {
+    width: 410px;
+    height: 460px;
+    margin: 0 40px;
+    background: url("../img/letter-background.png") no-repeat;
+    background-size: cover;
+    font-family: Helvetica, Arial, serif;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+}
+.form > p {
+    color: #7C7873;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.form > label {
+    color: #C1BBB5;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+input,
+textarea {
+    display: block;
+    border: 1px solid #E6E0D5;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+textarea {
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #F5F2EC;
+}
+input {
+    height: 30px;
+    background-color: #F3EFE6;
+}
+input[type="submit"] {
+    width: 170px;
+    height: 40px;
+    color: #7C7873;
+    font-size: 25px;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    font-family: "Yanone Kaffeesatz Regular", sans-serif;
+    position: relative;
+    bottom: 110px;
+}
+input[type="submit"]:hover {
+    color: #435C70;
+    background-color: #BBC9CF;
+    font-weight: bold;
+}
+/*.envelope-top {*/
+    /*background: url("../img/envelope-top.png") no-repeat;*/
+    /*width: 530px;*/
+    /*height: 316px;*/
+    /*margin-top: -342px;*/
+/*}*/
+/*.envelope-bottom {*/
+    /*background: url("../img/envelope-bottom.png") no-repeat;*/
+    /*width: 530px;*/
+    /*height: 260px;*/
+    /*margin-top: -131px;*/
+    /*position: absolute;*/
+/*}*/
+#first {
+    margin-top: 160px;
+}
+#second {
+    position: absolute;
+    top: 434px;
+}

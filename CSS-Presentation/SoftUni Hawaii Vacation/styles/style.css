@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Animated;
+    src: url(../fonts/Animated.ttf);
+}
+body {
+    background: url("../images/HawaiiBackground.png"),
+    radial-gradient( circle closest-corner at 26% 24%, #eaebe4, #edff47 41%,#e8e7dc 59%,#3a75cf 79%),
+    linear-gradient(to left, #509FDF , #0069DB);
+    background-repeat: no-repeat;
+    background-size: 900px 600px;
+}
+h1 {
+    font-family: Animated;
+    color: #FDBC21;
+    padding-left: 450px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#vladoG {
+    background: url("../images/VladoGHula.png") no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 265px;
+    height: 350px;
+}
+#petia {
+    background: url("../images/PetiaHula.png") no-repeat;
+    position: absolute;
+    width: 238px;
+    height: 380px;
+    top: 170px;
+    left: 170px;
+}
+#tedi {
+    background: url("../images/TediHula.png") no-repeat;
+    position: absolute;
+    width: 160px;
+    height: 220px;
+    top: 330px;
+    left: 270px;
+}
+#nakov {
+    background: url("../images/NakovHula.png") no-repeat;
+    position: absolute;
+    width: 220px;
+    height: 410px;
+    top: 130px;
+    left: 420px;
+}
+#alex {
+    background: url("../images/AlexHula.png") no-repeat;
+    position: absolute;
+    width: 240px;
+    height: 380px;
+    top: 170px;
+    left: 510px;
+}
+#vladoK {
+    background: url("../images/VladoKHula.png") no-repeat;
+    position: absolute;
+    width: 220px;
+    height: 360px;
+    top: 190px;
+    left: 680px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extreme Reservation</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div>
+                <img src="images/paraglider-icon.png" alt="Paraglider">
+                <span>Paragliding</span>
+            </div>
+            <div>
+                <img src="images/sky-diver.png" alt="sky-diver">
+                <span>Skydiving</span>
+            </div>
+            <div>
+                <img src="images/climbing.png" alt="climbing">
+                <span>Climbing</span>
+            </div>
+            <div>
+                <img src="images/about-us.png" alt="about-us">
+                <span>About Us</span>
+            </div>
+        </header>
+        <main>
+            <section class="left">
+                <form action="#">
+                    <fieldset class="left-set">
+                        <legend>Personal Info</legend>
+                        <div>
+                            <img src="images/user1.png" alt="user">
+                            <input type="text" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <img src="images/email.png" alt="email">
+                            <input type="email" placeholder="Enter a valid e-mail">
+                        </div>
+                        <div>
+                            <img src="images/phone.png" alt="phone">
+                            <input type="tel" placeholder="Enter a phone number">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="right">
+                <form action="#">
+                    <fieldset class="right-set">
+                        <legend>Flight Info</legend>
+                        <p>Are flying for first time?</p>
+                        <div id="radio-btn">
+                            <input type="radio" name="fly" id="radio1">
+                            <label for="radio1">Yes</label>
+                            <input type="radio" name="fly" id="radio2">
+                            <label for="radio2">No</label>
+                        </div>
+                        <label for="destination" id="label-field">Choose Destination</label>
+                        <select name="destination" id="destination">
+                            <optgroup label="Bulgaria">
+                                <option value="Dobrostan">Dobrostan</option>
+                                <option value="Sopot">Sopot</option>
+                                <option value="Sofia">Sofia</option>
+                                <option value="Burgas">Burgas</option>
+                            </optgroup>
+                            <optgroup label="Rest of the World">
+                                <option value="Nepal">Nepal</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="France">France</option>
+                            </optgroup>
+                        </select>
+                        <label for="date">Choose Date</label>
+                        <input type="date" value="2016-04-20" id="date">
+                    </fieldset>
+                </form>
+            </section>
+            <div class="buttons">
+                <input type="reset" value="Clear">
+                <input type="submit" value="Send">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
